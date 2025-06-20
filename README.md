@@ -1,7 +1,5 @@
 # 📊 Análise de Churn - TelecomX
-
-Este projeto tem como objetivo analisar os dados de clientes da empresa TelecomX a fim de identificar os principais fatores que levam ao cancelamento de contrato (Churn) e propor recomendações para melhorar a retenção de clientes.
-
+Este projeto foi desenvolvido como parte do programa **Oracle Next Education (ONE)**, uma iniciativa educacional promovida pela **Oracle** em parceria com a **Alura**, tendo como objetivo analisar os dados de clientes da empresa TelecomX a fim de identificar os principais fatores que levam ao cancelamento de contrato (Churn) e propor recomendações para melhorar a retenção de clientes.
 ---
 
 ## 🧠 Objetivo
