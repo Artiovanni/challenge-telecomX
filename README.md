@@ -37,7 +37,7 @@ Mostra a proporção entre clientes que cancelaram (`Churn = Yes`) e os que perm
 
 ### Churn por Tipo de Contrato
 ![Churn por Tipo de Contrato](imagens_telecom/churn_por_tipo_contrato.png)  
-Clientes com contratos mensais apresentaram a maior taxa de cancelamento (42,7%), enquanto contratos de 1 e 2 anos mostraram churn significativamente menor (11,1% e 2,9%). A fidelização por contrato é um fator importante.
+Clientes com contratos mensais apresentaram a maior taxa de cancelamento, enquanto contratos de 1 e 2 anos mostraram churn significativamente menor. Indicando que clientes tendem a cancelar com contratos mais curtos.
 
 ---
 
