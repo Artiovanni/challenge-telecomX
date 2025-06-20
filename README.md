@@ -79,27 +79,33 @@ Clientes que não possuem serviços de streaming, como `StreamingTV` ou `Streami
 | Contrato mensal         | 42,7% de churn vs. 11,1% (1 ano) e 2,9% (2 anos)               |
 | Daily_Charge elevado    | custos diários altos → maior evasão                            |
 | Electronic check        | método de pagamento com maior churn                            |
-| Sem serviços adicionais | ausência de OnlineSecurity, TechSupport e OnlineBackup         |
-| PaperlessBilling = 1    | churn levemente superior                                       |
-| SeniorCitizen = 0       | jovens/adultos têm maior probabilidade de cancelar             |
+| **Falta de uso de serviços**    | Clientes que não usam os serviços (InternetService, TechSupport, OnlineBackup e PaperlessBilling) tendem a cancelar seus contratos.|
+| **Serviços de má qualidade**    | Insatisfação com os serviços OnlineSecurity e DeviceProtection levando a uma alta tendência de churn.|
+| **SeniorCitizen = 0**          | Jovens/adultos têm maior probabilidade de cancelar.                       |
+| **Sem parceiros e sem dependentes** | Clientes jovens/adultos que moram sozinhos apresentam taxas de churn mais elevadas.|
+| **InternetService = 'No'**     | Ausência do serviço principal (internet) aumenta o risco de churn.        |
+| **DeviceProtection e TechSupport (ativos)** | Clientes que possuem esses serviços também mostram alta evasão, possivelmente por insatisfação com o valor percebido. |
+| **Charges_Monthly muito alto** | Pode indicar percepção negativa de custo-benefício.                      |
 
 ---
 
 ## ✅ Recomendações
 
-- Onboarding intensivo nos 6 primeiros meses.
-- Incentivos para contratos de longo prazo.
-- Pacotes de serviços essenciais com desconto.
-- Melhoria e análise do método de pagamento `Electronic check`.
-- Campanhas direcionadas para perfis com maior risco.
-
+- **Onboarding Intensivo:** check-ins nos primeiros meses, tutoriais e canais de suporte acessíveis.
+- **Promoções para contratos longos:** descontos ou meses gratuitos para fidelizar clientes.
+- **Pacotes de serviços essenciais com desconto:** bundles com TechSupport, Segurança e Backup.
+- **Revisão da experiência com Electronic check:** melhorar usabilidade e incentivar troca por métodos automáticos.
+- **Campanhas direcionadas:** foco em jovens sem dependentes/parceiros, usuários de fatura digital e clientes com contrato mensal.
+- **Pesquisa de satisfação ativa:** monitorar qualidade dos serviços com alta evasão.
+- **Análise de valor percebido:** para clientes com custos elevados, garantir comunicação clara dos benefícios.
 ---
 
 ## 🛠️ Próximos Passos
 
-- Implementar modelo preditivo de churn com base nas variáveis mais relevantes.
-- Criar sistema de alertas para retenção proativa.
-- Acompanhar a evolução da taxa de churn após ações aplicadas.
+- Implementar **modelo preditivo de churn** com base nas variáveis mais relevantes.
+- Criar **sistema de alertas** para retenção proativa.
+- **Acompanhar a evolução** da taxa de churn após ações aplicadas.
+- **Aprimorar qualidade dos serviços** com maior índice de cancelamento.
 
 ---
 
