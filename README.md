@@ -102,3 +102,59 @@ Clientes que não possuem serviços de streaming, como `StreamingTV` ou `Streami
 - Acompanhar a evolução da taxa de churn após ações aplicadas.
 
 ---
+
+## 📁 Estrutura do Projeto
+
+├── TelecomX_Churn_Analysis.ipynb # Notebook principal com análise e visualizações
+
+├── dados/
+
+│ └── telecom_users.json # Base de dados original
+
+├── imagens_telecom/
+
+│ ├── churn.png
+
+│ ├── churn_por_genero.png
+
+│ ├── churn_por_faixa_etaria.png
+
+│ ├── churn_por_parceiros.png
+
+│ ├── churn_por_dependentes.png
+
+│ ├── churn_por_tipo_contrato.png
+
+│ ├── churn_por_metodo_pgto.png
+
+│ ├── churn_por_servicos.png
+
+│ ├── churn_por_servicos_streaming.png
+
+│ ├── churn_por_tenures_e_gastos.png
+
+│ ├── correlacao_campos.png
+
+│ └── distribuicao_churn_gastos_diarios.png
+
+└── README.md
+---
+
+## ▶️ Instruções para Execução
+
+1. Clone este repositório:
+
+```
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
+2. Instale os pacotes necessários (utilizando virtualenv recomendado):
+
+```
+pip install pandas matplotlib seaborn
+```
+
+3. Execute o notebook:
+
+```
+jupyter notebook TelecomX_Churn_Analysis.ipynb
+```
