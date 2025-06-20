@@ -103,6 +103,3 @@ Clientes que não possuem serviços de streaming, como `StreamingTV` ou `Streami
 - Acompanhar a evolução da taxa de churn após ações aplicadas.
 
 ---
-
-## 📁 Estrutura do Projeto
-
